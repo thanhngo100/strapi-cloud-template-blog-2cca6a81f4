@@ -22,7 +22,9 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "build:win": "cross-env NOTE_ENV=develop npm run build",
+    "start:win": "cross-env NOTE_ENV=develop npm run start",
   },
   "devDependencies": {},
   "author": {
